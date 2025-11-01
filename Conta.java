@@ -5,6 +5,12 @@ public abstract class Conta {
     protected String nomeCliente;
     protected double saldoAtual;
 
+    public Conta(int numConta, String nomeCliente, double saldoAtual) {
+        this.numConta = numConta;
+        this.nomeCliente = nomeCliente;
+        this.saldoAtual = saldoAtual;
+    }
+
     public int getNumConta() {
         return numConta;
     }
