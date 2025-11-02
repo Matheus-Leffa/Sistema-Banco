@@ -21,6 +21,7 @@ public class ContaCorrente extends Conta{
         return "ContaCorrente \n" +
                 "Conta: " + numConta + "\n" +
                 "Nome do cliente: " + nomeCliente + '\n' +
-                "Saldo atual: " + saldoAtual;
+                "Saldo atual: " + saldoAtual + '\n' +
+                "Utiliza cheque: " + utilizaCheque;
     }
 }
